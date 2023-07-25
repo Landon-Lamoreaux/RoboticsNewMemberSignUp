@@ -12,6 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.ComponentModel;
+using System.Threading;
+using System.IO;
+using Spire.Xls;
+using DocumentFormat.OpenXml.Spreadsheet;
+using DocumentFormat.OpenXml.Wordprocessing;
 
 namespace RoboticsNewMembers
 {
@@ -20,9 +26,20 @@ namespace RoboticsNewMembers
     /// </summary>
     public partial class MainWindow : Window
     {
+        Auto Auto;
+        Manual Manual;
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = this;
+
+            Auto = new Auto();
+            Manual = new Manual();
+
+            AutoTab.Content = Auto;
+            ManualTab.Content = Manual;
+
+            Title = "New Member Sign Up";
         }
     }
 }

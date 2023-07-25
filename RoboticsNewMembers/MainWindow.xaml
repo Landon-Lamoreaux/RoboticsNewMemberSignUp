@@ -6,8 +6,11 @@
         xmlns:local="clr-namespace:RoboticsNewMembers"
         mc:Ignorable="d"
         Title="New Member Sign Up"
-        Icon="/roboticslogo.png" Height="450" Width="800">
-    <StackPanel VerticalAlignment="Stretch" Height="auto" Orientation="Horizontal">
-        <TextBox x:Name="MemberNameBox" Text="{Binding MemberName}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200"></TextBox>
-    </StackPanel>
+        Icon="/roboticslogo.png" Height="250" Width="800">
+    <TabControl>
+        <TabItem x:Name="AutoTab" Header="Auto" FontFamily="Calibri" FontSize="14">
+        </TabItem>
+        <TabItem x:Name="ManualTab" Header="Manual" FontFamily="Calibri" FontSize="14">
+        </TabItem>
+    </TabControl>
 </Window>
