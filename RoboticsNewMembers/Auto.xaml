@@ -5,9 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:RoboticsNewMembers"
              mc:Ignorable="d" 
-             d:DesignHeight="250" d:DesignWidth="800">
-    
-    <StackPanel Orientation="Vertical">
+             d:DesignHeight="300" d:DesignWidth="700">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Vertical">
         <StackPanel Orientation="Horizontal">
             <StackPanel VerticalAlignment="Stretch" Height="auto" Orientation="Vertical">
                 <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Text="First Name:" Margin="5 0 0 0"></TextBlock>
@@ -25,6 +25,8 @@
             <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Text="Your Email:" Margin="5 5 0 0"></TextBlock>
             <TextBox x:Name="EmailBox" HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding Email}" IsReadOnly="True" BorderThickness="0" Margin="5 5 0 0"></TextBox>
         </StackPanel>
-        <Button x:Name="ConfirmButton" Margin="5 -10 0 0" Click="OnComfirmClick" Width="55" HorizontalAlignment="Left">Comfirm</Button>
+            <Button x:Name="ConfirmButton" Margin="5 -10 0 0" Click="OnComfirmClick" Width="55" HorizontalAlignment="Left">Comfirm</Button>
+        </StackPanel>
+        <Image Source="/Robotics Discord Invite.png" Height="225" Margin="75 0 0 0"></Image>
     </StackPanel>
 </UserControl>
