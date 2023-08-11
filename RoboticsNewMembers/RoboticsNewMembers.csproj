@@ -119,10 +119,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="roboticslogo.png" />
+    <Resource Include="Robotics Discord Invite.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Robotics Discord Invite.png" />
+    <Resource Include="Robo Logo Square App.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

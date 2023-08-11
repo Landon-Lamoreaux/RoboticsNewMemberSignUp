@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:RoboticsNewMembers"
         mc:Ignorable="d"
         Title="New Member Sign Up"
-        Icon="/roboticslogo.png" Height="300" Width="700">
+        Icon="/Robo Logo Square App.png" Height="300" Width="700">
     <TabControl>
         <TabItem x:Name="AutoTab" Header="Auto" FontFamily="Calibri" FontSize="14">
         </TabItem>
